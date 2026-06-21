@@ -1,5 +1,5 @@
-import type { CartItemSchema } from "../schema/cartItemSchema";
-import type { ProductSchema } from "../schema/productSchema";
+import type { CartItemSchema } from "../../schema/cartItemSchema";
+import type { ProductSchema } from "../../schema/productSchema";
 
 interface ConfirmOrderItemCardProps {
   cartItem: CartItemSchema;
