@@ -5,7 +5,7 @@
 export async function getProducts() {
   // await delay(500);
 
-  const response = await fetch("/data.json");
+  const response = await fetch(`${import.meta.env.BASE_URL}data.json`);
 
   if (!response.ok) {
     throw Error("Failed to fetch products");
