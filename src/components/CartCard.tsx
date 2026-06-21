@@ -38,7 +38,7 @@ function CartCard({ cart, products, onShowConfirmOrderModal }: CartCardProps) {
           </div>
           <div className="flex justify-center items-center gap-3">
             <svg className="w-4 h-5 overflow-visible">
-              <use href="/assets/icons.svg#carbon-neutral"></use>
+              <use href="./assets/icons.svg#carbon-neutral"></use>
             </svg>
             <p className="text-rose-900">
               This is a <span className="font-semibold">carbon-neutral</span>{" "}

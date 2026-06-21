@@ -19,7 +19,7 @@ function QuantityButton({ product }: QuantityButtonProps) {
         className="w-5 h-5 flex items-center justify-center border border-white hover:bg-white hover:text-accent rounded-(--radius-full) pt-1.5 pl-1.5 p-1 transition-colors cursor-pointer"
       >
         <svg className="w-3 h-3 overflow-visible">
-          <use href="/assets/icons.svg#decrement-quantity" />
+          <use href="./assets/icons.svg#decrement-quantity" />
         </svg>
       </button>
       <span className="mx-8">{getCartItemQuantity(cart, product.id)}</span>
@@ -32,7 +32,7 @@ function QuantityButton({ product }: QuantityButtonProps) {
         className="w-5 h-5 flex items-center justify-center border border-white hover:bg-white text-white hover:text-accent rounded-(--radius-full) pt-1.5 pl-1.5 p-1 transition-colors cursor-pointer"
       >
         <svg className="w-3 h-3 overflow-visible">
-          <use href="/assets/icons.svg#increment-quantity" />
+          <use href="./assets/icons.svg#increment-quantity" />
         </svg>
       </button>
     </div>

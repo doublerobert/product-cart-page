@@ -24,7 +24,7 @@ function ConfirmOrderModal({
         <div className="flex flex-col gap-1.5">
           <div className="rounded-full flex items-center mb-3">
             <svg className="w-6 h-12 overflow-visible">
-              <use href="/assets/icons.svg#order-confirmed" />
+              <use href="./assets/icons.svg#order-confirmed" />
             </svg>
           </div>
           <h1 className="text-rose-900 font-bold text-4xl">Order Confirmed</h1>

@@ -31,7 +31,7 @@ function CartItemCard({ cartItem, product }: CartItemCardProps) {
         className="flex border rounded-full justify-between items-center w-5 h-5 p-1 pt-1.5 border-rose-500 text-rose-500 hover:border-rose-900 hover:text-rose-900 transition-colors cursor-pointer"
       >
         <svg className="w-3 h-3 overflow-visible">
-          <use href="/assets/icons.svg#remove-item" />
+          <use href="./assets/icons.svg#remove-item" />
         </svg>
       </button>
     </div>
