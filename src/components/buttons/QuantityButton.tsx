@@ -1,6 +1,6 @@
-import type { ProductSchema } from "../schema/productSchema";
-import getCartItemQuantity from "../utils/getCartItemQuantity";
-import useCart from "../hooks/useCart";
+import type { ProductSchema } from "../../schema/productSchema";
+import getCartItemQuantity from "../../utils/getCartItemQuantity";
+import useCart from "../../hooks/useCart";
 
 interface QuantityButtonProps {
   product: ProductSchema;

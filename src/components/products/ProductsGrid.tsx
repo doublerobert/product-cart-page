@@ -1,4 +1,4 @@
-import type { ProductSchema } from "../schema/productSchema";
+import type { ProductSchema } from "../../schema/productSchema";
 import ProductCard from "./ProductCard";
 import styles from "../styles/ProductsGrid.module.css";
 

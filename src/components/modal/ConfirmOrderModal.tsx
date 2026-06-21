@@ -1,8 +1,8 @@
-import type { ProductSchema } from "../schema/productSchema";
-import Button from "./Button";
+import type { ProductSchema } from "../../schema/productSchema";
+import Button from "../buttons/Button";
 import ConfirmOrderItemCard from "./ConfirmOrderItemCard";
-import useUpdateOrderTotal from "../hooks/useUpdateOrderTotal";
-import useCart from "../hooks/useCart";
+import useUpdateOrderTotal from "../../hooks/useUpdateOrderTotal";
+import useCart from "../../hooks/useCart";
 
 interface ConfirmOrderModalProps {
   products: ProductSchema[];

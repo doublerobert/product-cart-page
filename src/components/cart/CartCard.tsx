@@ -1,8 +1,8 @@
-import useUpdateOrderTotal from "../hooks/useUpdateOrderTotal";
-import type { CartItemSchema } from "../schema/cartItemSchema";
-import type { ProductSchema } from "../schema/productSchema";
-import getTotalCartQuantity from "../utils/getTotalCartQuantity";
-import Button from "./Button";
+import useUpdateOrderTotal from "../../hooks/useUpdateOrderTotal";
+import type { CartItemSchema } from "../../schema/cartItemSchema";
+import type { ProductSchema } from "../../schema/productSchema";
+import getTotalCartQuantity from "../../utils/getTotalCartQuantity";
+import Button from "../buttons/Button";
 import CartItemCard from "./CartItemCard";
 
 interface CartCardProps {
@@ -50,7 +50,7 @@ function CartCard({ cart, products, onShowConfirmOrderModal }: CartCardProps) {
       ) : (
         <div className="flex flex-col items-center gap-3">
           <img
-            src="/assets/illustration-empty-cart.svg"
+            src="./assets/illustration-empty-cart.svg"
             alt="Empty Cart Image"
           />
           <p className="font-semibold text-rose-500">

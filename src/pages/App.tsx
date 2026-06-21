@@ -1,9 +1,9 @@
-import ProductsGrid from "../components/ProductsGrid";
+import ProductsGrid from "../components/products/ProductsGrid";
 import useProducts from "../hooks/useProducts";
 import { useState } from "react";
 import styles from "../styles/App.module.css";
-import CartCard from "../components/CartCard";
-import ConfirmOrderModal from "../components/ConfirmOrderModal";
+import CartCard from "../components/cart/CartCard";
+import ConfirmOrderModal from "../components/modal/ConfirmOrderModal";
 import useCart from "../hooks/useCart";
 
 function App() {

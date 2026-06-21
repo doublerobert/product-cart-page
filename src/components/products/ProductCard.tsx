@@ -1,8 +1,8 @@
-import type { ProductSchema } from "../schema/productSchema";
-import AddToCartButton from "./AddToCartButton";
-import QuantityButton from "./QuantityButton";
-import getCartItemQuantity from "../utils/getCartItemQuantity";
-import useCart from "../hooks/useCart";
+import type { ProductSchema } from "../../schema/productSchema";
+import AddToCartButton from "../buttons/AddToCartButton";
+import QuantityButton from "../buttons/QuantityButton";
+import getCartItemQuantity from "../../utils/getCartItemQuantity";
+import useCart from "../../hooks/useCart";
 
 interface ProductCardProps {
   product: ProductSchema;

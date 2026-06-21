@@ -1,6 +1,6 @@
-import type { CartItemSchema } from "../schema/cartItemSchema";
-import type { ProductSchema } from "../schema/productSchema";
-import useCart from "../hooks/useCart";
+import type { CartItemSchema } from "../../schema/cartItemSchema";
+import type { ProductSchema } from "../../schema/productSchema";
+import useCart from "../../hooks/useCart";
 
 interface CartItemCardProps {
   cartItem: CartItemSchema;
