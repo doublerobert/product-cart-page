@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Red Hat Text";
+  src: url("/assets/fonts/RedHatText-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+:root {
+  /* COLORS */
+  /* color palette */
+  --color-red: hsl(14, 86%, 42%);
+  --color-green: hsl(159, 69%, 38%);
+
+  --color-rose-50: hsl(20, 50%, 98%);
+  --color-rose-100: hsl(13, 31%, 94%);
+  --color-rose-300: hsl(14, 25%, 72%);
+  --color-rose-400: hsl(7, 20%, 60%);
+  --color-rose-500: hsl(12, 20%, 44%);
+  --color-rose-900: hsl(14, 65%, 9%);
+
+  --color-white: hsl(0, 0%, 100%);
+  --color-black: hsl(0, 0%, 0%);
+
+  /* layout / surface */
+  --color-bg: var(--color-rose-50);
+  --color-surface: var(--color-white);
+  --color-border: var(--color-rose-500);
+
+  /* text */
+  --color-text-primary: var(--color-rose-900);
+  --color-text-secondary: var(--color-rose-500);
+  --color-text-muted: var(--color-rose-400);
+
+  /* status */
+  --color-success: var(--color-green);
+  --color-accent: var(--color-red);
+
+  /* button hover */
+  --color-accent-secondary: hsl(14, 84%, 32%);
+
+  /* TYPOGRAPHY */
+  /* family */
+  --font-body: "Red Hat Text", system-ui, sans-serif;
+
+  /* size */
+  --font-size-product: 1rem;
+
+  /* weight */
+  --weight-regular: 400;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  /* SPACING */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-7: 1.75rem;
+  --space-8: 2rem;
+
+  /* RADIUS */
+  --radius-sm: 0.5rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --radius-full: 999px;
+
+  /* SHADOW */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+@theme {
+  --font-body: "Red Hat Text", system-ui, sans-serif;
+
+  --color-accent: var(--color-accent);
+  --color-success: var(--color-success);
+
+  --color-background: var(--color-bg);
+  --color-surface: var(--color-surface);
+
+  --color-text-primary: var(--color-text-primary);
+  --color-text-secondary: var(--color-text-secondary);
+  --color-text-muted: var(--color-text-muted);
+}
+
+body {
+  font-family: var(--font-body);
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-rose-100);
+}
+
+* {
+  font-family: var(--font-body);
+}
+
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

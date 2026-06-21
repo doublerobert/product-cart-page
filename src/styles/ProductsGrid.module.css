@@ -1,0 +1,5 @@
+.productGrid {
+  display: grid;
+  gap: var(--space-6);
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
